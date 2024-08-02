@@ -1,5 +1,4 @@
 # FamilyFeudCLI
-CLI 'Family Feud' inspired game.
 I developed this game individually over the course of ~10 hours during my participation of the Capital One Tech Mini-Mester program. My requirements were to implement a CLI based program using JavaScript and the npm packages of my choosing.
 I implemented my project using fs, chalk, chalk-animation, natural, and inquirer packages with Node.js.
 
