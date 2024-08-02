@@ -1,6 +1,7 @@
 # FamilyFeudCLI
 CLI 'Family Feud' inspired game.
 I developed this game individually over the course of ~10 hours during my participation of the Capital One Tech Mini-Mester program. My requirements were to implement a CLI based program using JavaScript and the npm packages of my choosing.
+I implemented my project using fs, chalk, chalk-animation, natural, and inquirer packages with Node.js.
 
 Challenges:
 - I was unable to find a good NLP package to analyze the semantics of the user's answers. In the actual game, the 
@@ -20,6 +21,7 @@ Potential Developments:
   would improve the game's understanding of semantics as well.
 
 Sources:
+- https://docs.google.com/spreadsheets/d/1y5TtM4rXHfv_9BktCiJEW621939RzJucXxhJidJZbfQ/htmlview
 - https://www.npmjs.com/package/csv-parse
 - https://www.naukri.com/code360/library/how-to-read-csv-file-in-javascript
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random 
