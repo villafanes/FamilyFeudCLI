@@ -9,7 +9,7 @@ import inquirer from 'inquirer';
 
 const path = "./FamilyFeud_Data.csv";
 const questions_dict = {}; // holds questions and answers
-const resolveAnimations = (ms = 2000) => new Promise((resolve) => setTimeout(resolve, ms)); // taken from solution.js
+const resolveAnimations = (ms = 2000) => new Promise((resolve) => setTimeout(resolve, ms)); 
 
 
 // ensure all questions are formatted the same
@@ -76,7 +76,7 @@ async function startGame() {
       ]);
 
       if (choice === 'Instructions') { // explains game if user chooses to 
-        console.log(chalk.yellow("You will be given 10 prompts. \nIf your answers earn 50 points or more, you win! \nIf not, you will be haunted by the ghost of Steve Harvey until you win a round of Family Feud. \nLet's Play!"));
+        console.log(chalk.yellow("You will be given 10 prompts. \nIf your answers earn 40 points or more, you win! \nIf not, you will be haunted by the ghost of Steve Harvey until you win a round of Family Feud. \nLet's Play!"));
       }
       playGame();
 }
@@ -125,7 +125,7 @@ async function playGame() {
     }
 
 
-    if (points >= 40) { // sees if winning requirement of 50 points is met
+    if (points >= 40) { // sees if winning requirement of 40 points is met
         console.log(chalk.green(`You got ${points} points.`))
         const winner = chalkAnimation.rainbow("Congratulations! You've just won Family Feud!");
         await resolveAnimations(3000); // plays animation for 3 seconds
